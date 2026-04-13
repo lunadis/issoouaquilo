@@ -142,7 +142,7 @@ export default function App() {
         </header>
 
         <form onSubmit={handleSubmit(onSubmit)} noValidate>
-          <ul className="options-list" role="list">
+          <ul className="options-list">
             {inputs.map((input, index) => (
               <li key={input.id} className="option-row">
                 <span className="option-row__num" aria-hidden="true">
